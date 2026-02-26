@@ -53,10 +53,6 @@ VideoFusion explicitly models **cross-modal complementarity + temporal dynamics*
 ## 🧠 Method at a Glance
 
 ### Architecture
-Given aligned IR/VI video clips, VideoFusion outputs:
-- **Fused video** (RGB)
-- **Restored IR & VI** (auxiliary modality-unmixing branch for better fusion and robustness)
-
 Core modules:
 1. **CmDRM**: Cross-modal Differential Reinforcement Module  
 2. **CMGF**: Complete Modality-guided Fusion  
