@@ -83,6 +83,45 @@ VideoFusion explicitly models **cross-modal complementarity + temporal dynamics*
 > 🔗 Download links will be updated: **(TBD)**
 
 ---
+## ⚙️ Installation
+
+### 1) Clone
+```bash
+git clone (your_repo_url_here)
+cd VideoFusion
+```
+
+### 2) Create Environment
+```bash id="xzet4o"
+conda create -n videofusion python=3.9 -y
+conda activate videofusion
+pip install -r requirements.txt
+```
+
+> If you use CUDA, please make sure your PyTorch / torchvision versions match your CUDA driver.
+
+---
+
+## 🚀 Quick Start (Testing)
+
+### Prepare
+1. Download pretrained weights: **(TBD)**
+2. Put weights into:
+```text
+./pretrained_weights/
+```
+
+### Run
+```bash id="hs2gsx"
+python test.py -opt=./options/test/test_VideoFusion.yml
+```
+
+### Outputs
+Fused videos and/or restored outputs will be saved to the directory specified in the test YAML.
+
+---
+
+
 
 ## 🖼️ Qualitative Results
 
