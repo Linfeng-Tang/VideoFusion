@@ -27,9 +27,7 @@ Linfeng Tang, Yeda Wang, Meiqi Gong, Zizhuo Li, Yuxin Deng, Xunpeng Yi, Chunyu L
 - Pretrained weights / dataset links / scripts will be updated here.
 ---
 
-## 🔎 Overview
-
-### Motivation
+## 🔎 Motivation
 Most multi-modal fusion methods are designed for **static images**. Applying them frame-by-frame to videos often leads to:
 - **Temporal flickering** (inconsistent fusion across frames)
 - Under-utilization of **motion/temporal cues**
@@ -87,7 +85,7 @@ VideoFusion explicitly models **cross-modal complementarity + temporal dynamics*
 
 ### 1) Clone
 ```bash
-git clone (your_repo_url_here)
+git clone git@github.com:Linfeng-Tang/VideoFusion.git
 cd VideoFusion
 ```
 
@@ -97,9 +95,6 @@ conda create -n videofusion python=3.9 -y
 conda activate videofusion
 pip install -r requirements.txt
 ```
-
-> If you use CUDA, please make sure your PyTorch / torchvision versions match your CUDA driver.
-
 ---
 
 ## 🚀 Quick Start (Testing)
@@ -115,13 +110,39 @@ pip install -r requirements.txt
 ```bash id="hs2gsx"
 python test.py -opt=./options/test/test_VideoFusion.yml
 ```
-
-### Outputs
-Fused videos and/or restored outputs will be saved to the directory specified in the test YAML.
-
 ---
 
+## 🚂 Training
 
+### 1) Dataset Preparation
+Download **M3SVD** and place it as:
+```text
+<your_m3svd_root>/
+  ├── train/
+  │   ├── ir/seqxxx/*.png
+  │   └── vi/seqxxx/*.png
+  ├── val/
+  │   ├── ir/...
+  │   └── vi/...
+  └── test/
+      ├── ir/...
+      └── vi/...
+```
+
+Then update `options/train/train_VideoFusion.yml` with the correct dataset root paths.
+
+### 2) DDP Training
+```bash id="7p52sw"
+CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --nproc_per_node=4 --master_port=7542 \
+  train.py -opt ./options/train/train_VideoFusion.yml --launcher pytorch
+```
+
+### 3) Training Tips (Recommended)
+- Use smaller temporal window during training to fit memory (e.g., **T=7**)
+- Use mixed precision if supported
+- Validate periodically and keep best checkpoint
+
+---
 
 ## 🖼️ Qualitative Results
 
@@ -268,37 +289,7 @@ python test.py -opt=./options/test/test_VideoFusion.yml
 
 ---
 
-## 🚂 Training
 
-### 1) Dataset Preparation
-Download **M3SVD** and place it as:
-```text
-<your_m3svd_root>/
-  ├── train/
-  │   ├── ir/seqxxx/*.png
-  │   └── vi/seqxxx/*.png
-  ├── val/
-  │   ├── ir/...
-  │   └── vi/...
-  └── test/
-      ├── ir/...
-      └── vi/...
-```
-
-Then update `options/train/train_VideoFusion.yml` with the correct dataset root paths.
-
-### 2) DDP Training
-```bash id="7p52sw"
-CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --nproc_per_node=4 --master_port=7542 \
-  train.py -opt ./options/train/train_VideoFusion.yml --launcher pytorch
-```
-
-### 3) Training Tips (Recommended)
-- Use smaller temporal window during training to fit memory (e.g., **T=7**)
-- Use mixed precision if supported
-- Validate periodically and keep best checkpoint
-
----
 
 ## 📊 Evaluation
 
