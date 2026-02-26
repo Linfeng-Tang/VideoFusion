@@ -45,13 +45,9 @@ VideoFusion explicitly models **cross-modal complementarity + temporal dynamics*
 
 ## ✨ Key Contributions
 - **VideoFusion**: a spatio-temporal collaborative network for **multi-modal video fusion and restoration**.
-- **Spatio-temporal collaboration**:
-  - cross-modal differential reinforcement
-  - complete modality-guided fusion
-  - bi-temporal co-attention (forward/backward temporal aggregation)
+- **Spatio-temporal collaboration**
 - **Temporal stabilization** via **variation-level consistency constraint** to reduce flicker.
 - **M3SVD dataset**: a large-scale synchronized & registered IR-VI video benchmark.
-
 ---
 
 ## 🧠 Method at a Glance
