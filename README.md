@@ -50,16 +50,7 @@ VideoFusion explicitly models **cross-modal complementarity + temporal dynamics*
 - **M3SVD dataset**: a large-scale synchronized & registered IR-VI video benchmark.
 ---
 
-## 🧠 Method at a Glance
-
-### Architecture
-Core modules:
-1. **CmDRM**: Cross-modal Differential Reinforcement Module  
-2. **CMGF**: Complete Modality-guided Fusion  
-3. **BiCAM**: Bi-temporal Co-attention Module  
-4. **Transformer-based enhancement** (Restormer-style operator)
-5. **Modality Unmixing** + IR/VI decoders
-
+## 🧠 Architecture
 <p align="center">
   <img src="assets/Framework.jpg" width="92%">
 </p>
@@ -84,12 +75,8 @@ Core modules:
 </p>
 
 ### Acquisition & Registration (Brief)
-- Synchronized dual-spectral capture (IR + Visible)
-- Distortion calibration (both sensors)
-- Estimate robust multimodal correspondences and compute homography for spatial registration
-
 <p align="center">
-  <img src="assets/Device.jpg" width="92%">
+  <img src="assets/Workflow.jpg" width="92%">
 </p>
 
 > 📌 Place dataset files following the dataloader requirement (see **Dataset Preparation** section).  
