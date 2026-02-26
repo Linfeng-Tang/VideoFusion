@@ -149,12 +149,6 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --nproc_per_node=4 --master_port=7542 \
 <p align="center">
   <img src="assets/Restoration.jpg" width="92%">
 </p>
-
-### Challenging Scenarios
-<p align="center">
-  <img src="assets/Challenging.jpg" width="92%">
-</p>
-
 ---
 
 ## ⏱️ Temporal Consistency
