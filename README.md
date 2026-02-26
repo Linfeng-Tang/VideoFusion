@@ -136,12 +136,6 @@ Then update `options/train/train_VideoFusion.yml` with the correct dataset root 
 CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --nproc_per_node=4 --master_port=7542 \
   train.py -opt ./options/train/train_VideoFusion.yml --launcher pytorch
 ```
-
-### 3) Training Tips (Recommended)
-- Use smaller temporal window during training to fit memory (e.g., **T=7**)
-- Use mixed precision if supported
-- Validate periodically and keep best checkpoint
-
 ---
 
 ## 🖼️ Qualitative Results
