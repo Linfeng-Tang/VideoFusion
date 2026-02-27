@@ -157,20 +157,27 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --nproc_per_node=4 --master_port=7542 \
 <p align="center">
   <img src="assets/Restoration.jpg" width="92%">
 </p>
----
 
 ## ⏱️ Temporal Consistency
 
 VideoFusion emphasizes temporal coherence. We provide temporal visualization examples:
+<p align="center">
+  <img src="assets/0112_1707.jpg" width="92%">
+</p>
+<p align="center">
+  <i>
+    Temporal variation of metrics on sequences.
+  </i>
+</p>
 
 <p align="center">
   <img src="assets/Temporal.jpg" width="92%">
 </p>
-
 <p align="center">
-  <img src="assets/Frames.jpg" width="92%">
-</p>
-
+  <i>
+    Visual comparison of temporal consistency in source and  fusion videos. Following DSTNet, we visualize pixels along selected  columns (dotted line) and measure average brightness variation  across frames.
+  </i>
+</p
 ---
 
 ## 📈 Ablation & Analysis
