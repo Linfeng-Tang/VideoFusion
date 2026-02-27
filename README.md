@@ -1,6 +1,8 @@
 <div align="center">
 
-<h1>VideoFusion: A Spatio-Temporal Collaborative Network for Multi-modal Video Fusion (CVPR 2026)</h1>
+<h1>
+  <a href="https://github.com/Linfeng-Tang/VideoFusion">VideoFusion: A Spatio-Temporal Collaborative Network for Multi-modal Video Fusion (CVPR 2026)</a>
+</h1>
 
 <p>
 <b>Official PyTorch implementation</b> of <i>"VideoFusion: A Spatio-Temporal Collaborative Network for Multi-modal Video Fusion"</i>
