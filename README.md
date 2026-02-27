@@ -62,14 +62,15 @@ Most multi-modal fusion methods are designed for **static images**. Applying the
   <img src="assets/Datasets.jpg" width="92%">
 </p>
 
-### Dataset Comparison (vs. prior works)
-<p align="center">
-  <img src="assets/Dataset_Comparison.jpg" width="92%">
-</p>
 
 ### Data Processing Workflow
 <p align="center">
   <img src="assets/Workflow.jpg" width="92%">
+</p>
+
+### Dataset Comparison (vs. prior works)
+<p align="center">
+  <img src="assets/Dataset_Comparison.jpg" width="92%">
 </p>
 
 > 📌 Place dataset files following the dataloader requirement (see **Dataset Preparation** section).  
