@@ -37,9 +37,6 @@ Linfeng Tang, Yeda Wang, Meiqi Gong, Zizhuo Li, Yuxin Deng, Xunpeng Yi, Chunyu L
 Most multi-modal fusion methods are designed for **static images**. Applying them frame-by-frame to videos often leads to:
 - **Temporal flickering** (inconsistent fusion across frames)
 - Under-utilization of **motion/temporal cues**
-- Poor robustness under **real-world degradations**
-
-VideoFusion explicitly models **cross-modal complementarity + temporal dynamics**, and supports **multi-modal video fusion & restoration** in a unified framework.
 
 ---
 
