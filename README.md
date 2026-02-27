@@ -36,7 +36,7 @@
 
 ## 🔥 News
 - **[2026]** VideoFusion has been **accepted to CVPR 2026**.
-- **[2025]** We release **M3SVD**, a large-scale aligned **infrared-visible multi-modal video dataset** for fusion & restoration.
+- **[2025]** We release **[M3SVD](https://github.com/Linfeng-Tang/M3SVD)**, a large-scale aligned **infrared-visible multi-modal video dataset** for fusion & restoration.
 
 ---
 
