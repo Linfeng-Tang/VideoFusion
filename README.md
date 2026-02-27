@@ -16,7 +16,18 @@
 </p>
 
 <p>
-Linfeng Tang, Yeda Wang, Meiqi Gong, Zizhuo Li, Yuxin Deng, Xunpeng Yi, Chunyu Li, Hao Zhang, Han Xu, Jiayi Ma
+<p>
+  <a href="https://linfeng-tang.github.io/">Linfeng Tang</a>,
+  Yeda Wang,
+  Meiqi Gong,
+  Zizhuo Li,
+  Yuxin Deng,
+  Xunpeng Yi,
+  Chunyu Li,
+  <a href="http://eis.whu.edu.cn/index/szdwDetail?rsh=00036060">Hao Zhang</a>,
+  <a href="https://automation.seu.edu.cn/xh/list.htm">Han Xu</a>,
+  <a href="https://robotics.whu.edu.cn/info/1301/4821.htm">Jiayi Ma</a>
+</p>
 </p>
 
 </div>
