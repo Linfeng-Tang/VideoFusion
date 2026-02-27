@@ -1,16 +1,16 @@
 <div align="center">
 
-<h1>VideoFusion: A Spatio-Temporal Collaborative Network for Multi-modal Video Fusion and Restoration (CVPR 2026)</h1>
+<h1>VideoFusion: A Spatio-Temporal Collaborative Network for Multi-modal Video Fusion (CVPR 2026)</h1>
 
 <p>
-<b>Official PyTorch implementation</b> of <i>"VideoFusion: A Spatio-Temporal Collaborative Network for Multi-modal Video Fusion and Restoration"</i>
+<b>Official PyTorch implementation</b> of <i>"VideoFusion: A Spatio-Temporal Collaborative Network for Multi-modal Video Fusion"</i>
 </p>
 
 <p>
 <a href="(Paper link)"><img src="https://img.shields.io/badge/Paper-CVPR%202026-blue"></a>
-<a href="(arXiv link)"><img src="https://img.shields.io/badge/arXiv-TBD-b31b1b"></a>
-<a href="(Project page)"><img src="https://img.shields.io/badge/Project-Page-green"></a>
-<a href="(Dataset link)"><img src="https://img.shields.io/badge/Dataset-M3SVD-orange"></a>
+<a href="(https://arxiv.org/abs/2503.23359)"><img src="https://img.shields.io/badge/arXiv-TBD-b31b1b"></a>
+<a href="(https://github.com/Linfeng-Tang/VideoFusion)"><img src="https://img.shields.io/badge/Project-Page-green"></a>
+<a href="(https://github.com/Linfeng-Tang/MSVD)"><img src="https://img.shields.io/badge/Dataset-M3SVD-orange"></a>
 </p>
 
 <p>
