@@ -24,7 +24,7 @@ Linfeng Tang, Yeda Wang, Meiqi Gong, Zizhuo Li, Yuxin Deng, Xunpeng Yi, Chunyu L
 ## 🔥 News
 - **[2026]** VideoFusion has been **accepted to CVPR 2026**.
 - **[2025]** We release **M3SVD**, a large-scale aligned **infrared-visible multi-modal video dataset** for fusion & restoration.
-- Pretrained weights / dataset links / scripts will be updated here.
+
 ---
 
 ## 🔎 Motivation
