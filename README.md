@@ -143,6 +143,12 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --nproc_per_node=4 --master_port=7542 \
   <img src="assets/Qualitative.jpg" width="92%">
 </p>
 <p align="center">
+  <i>
+    Qualitative comparison results on M3SVD and HDO datasets under degraded scenarios.
+  </i>
+</p>
+
+<p align="center">
   <img src="assets/Quantitative_Fusion.jpg" width="92%">
 </p>
 <p align="center">
