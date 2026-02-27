@@ -225,6 +225,11 @@ If you find this work useful, please cite:
 
 ---
 
+## ❤️ Acknowledgments
+This repository is built upon the excellent open-source framework 
+<a href="https://github.com/XPixelGroup/BasicSR">BasicSR</a>. 
+We sincerely thank the authors for their great work and for making their code publicly available.
+
 ## 🤝 Contact
 If you have any questions, please do not hesitate to contact **linfeng0419@gmail.com**.
 
