@@ -10,7 +10,7 @@
   <a href="(Paper link)"><img src="https://img.shields.io/badge/Paper-CVPR%202026-blue" alt="Paper"></a>
   <a href="https://arxiv.org/abs/2503.23359"><img src="https://img.shields.io/badge/arXiv-2503.23359-b31b1b" alt="arXiv"></a>
   <a href="https://github.com/Linfeng-Tang/VideoFusion"><img src="https://img.shields.io/badge/Project-Repo-green" alt="Project"></a>
-  <a href="https://github.com/Linfeng-Tang/MSVD"><img src="https://img.shields.io/badge/Dataset-M3SVD-orange" alt="Dataset"></a>
+  <a href="https://github.com/Linfeng-Tang/M3SVD"><img src="https://img.shields.io/badge/Dataset-M3SVD-orange" alt="Dataset"></a>
 </p>
 
 <p>
