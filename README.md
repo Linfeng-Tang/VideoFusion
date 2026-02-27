@@ -56,8 +56,6 @@ VideoFusion explicitly models **cross-modal complementarity + temporal dynamics*
 ---
 
 ## 📦 M3SVD Dataset
-
-### Scale & Properties
 - **220** temporally synchronized & spatially registered IR-VI videos  
 - **153,797** frames total  
 - Registered resolution **640×480**, **30 FPS**  
@@ -72,7 +70,7 @@ VideoFusion explicitly models **cross-modal complementarity + temporal dynamics*
   <img src="assets/Dataset_Comparison.jpg" width="92%">
 </p>
 
-### Acquisition & Registration (Brief)
+### Data Processing Workflow
 <p align="center">
   <img src="assets/Workflow.jpg" width="92%">
 </p>
@@ -143,6 +141,16 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --nproc_per_node=4 --master_port=7542 \
 ### Fusion Quality (examples)
 <p align="center">
   <img src="assets/Qualitative.jpg" width="92%">
+</p>
+<p align="center">
+  <img src="assets/Quantative_Fusion.jpg" width="92%">
+</p>
+<p align="center">
+  <i>
+    Quantitative comparison on the M3SVD and HDO datasets under degraded scenarios. 
+    Each video in M3SVD and HDO contains 200 and 150 frames, respectively. 
+    The best and second-best results are highlighted in Red and Purple, respectively.
+  </i>
 </p>
 
 ### Restoration / Robustness under Degradations
