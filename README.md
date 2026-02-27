@@ -40,16 +40,14 @@ Most multi-modal fusion methods are designed for **static images**. Applying the
 
 ---
 
-## ✨ Key Contributions
-- **VideoFusion**: a spatio-temporal collaborative network for **multi-modal video fusion and restoration**.
-- **Spatio-temporal collaboration**
-- **Temporal stabilization** via **variation-level consistency constraint** to reduce flicker.
-- **M3SVD dataset**: a large-scale synchronized & registered IR-VI video benchmark.
----
-
 ## 🧠 Architecture
 <p align="center">
   <img src="assets/Framework.jpg" width="92%">
+</p>
+<p align="center">
+  <i>
+    The overall framework of our spatio-temporal collaborative video fusion network.
+  </i>
 </p>
 
 ---
