@@ -1,0 +1,56 @@
+name: VideoFusion
+model_type: VideoFusionModel
+scale: 1
+num_gpu: 1  # set num_gpu: 0 for cpu mode
+manual_seed: 3047
+
+datasets:
+  test_1:  # the 1st test dataset
+    name: M3SVD
+    type: VideoFusionTestDataset
+    dataroot_gt_vi: ./dataset/M3SVD/val/visible_Enhance
+    dataroot_lq_vi: ./dataset/M3SVD/val/visible_Blur
+    dataroot_gt_ir: ./dataset/M3SVD/val/infrared_Enhance
+    dataroot_lq_ir: ./dataset/M3SVD/val/infrared_noise
+    cache_data: False
+    io_backend:
+      type: disk
+
+    num_frame: 7
+    num_overlap: 0
+
+# network structures
+network_g:
+  type: VideoFusion_Trans
+  in_channels: 3
+  out_channels: 3
+  num_features: 32
+  num_blocks: [2, 2, 4]
+  num_decoder_blocks: 2
+  num_heads: [2, 4, 8]
+  ffn_expansion_factor: 1
+  bias: false
+  LayerNorm_type: 'WithBias'   ## Other option 'BiasFree'
+  embed_dim: 32
+  groups: [4, 8, 16]
+
+
+# path
+path:
+  pretrain_network_g: ./experiments\VideoFusion\net_g_latest.pth
+  visualization: ./Results/VideoFusion/Video  
+  save_folder: ./Results/Video/M3SVD
+  only_fusion: true
+  strict_load_g: true
+
+# validation settingsa
+val:
+  save_img: true
+  flip_seq: false
+  suffix: ~  # add suffix to saved images, if None, use exp name
+
+  metrics: 
+    psnr: # metric name, can be arbitrary
+      type: calculate_psnr
+      crop_border: 0
+      test_y_channel: false
