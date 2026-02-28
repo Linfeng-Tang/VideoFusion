@@ -5,7 +5,7 @@
 </h1>
 
 <p>
-<b>Official PyTorch implementation</b> of <i>"VideoFusion: A Spatio-Temporal Collaborative Network for Multi-modal Video Fusion"</i>
+<b>Official implementation</b> of <i>"VideoFusion: A Spatio-Temporal Collaborative Network for Multi-modal Video Fusion"</i>
 </p>
 
 <p>
