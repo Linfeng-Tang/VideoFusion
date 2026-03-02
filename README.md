@@ -38,7 +38,7 @@
 - **[2026]** VideoFusion has been **accepted to CVPR 2026**.
 - **[2025]** We release **[M3SVD](https://github.com/Linfeng-Tang/M3SVD)**, a large-scale aligned **infrared-visible multi-modal video dataset** for fusion & restoration.
    
-  [![Baidu Images](https://img.shields.io/badge/Baidu-Images-2319DC?logo=baidu&logoColor=white)](https://pan.baidu.com/s/1FhUirShTQ02N5Dl3pgl-PA?pwd=M2VD)
+  [![Baidu Images](https://img.shields.io/badge/Baidu-Images-2319DC?logo=baidu&logoColor=white)](https://pan.baidu.com/s/1g8jixAr39n06JWPwrBE6lQ?pwd=M2VD)
   [![Baidu Videos](https://img.shields.io/badge/Baidu-Videos-2319DC?logo=baidu&logoColor=white)](https://pan.baidu.com/s/1R6HOSMXCHSiPEywU0GK_hw?pwd=M2VD)
   [![GoogleDrive Videos](https://img.shields.io/badge/GoogleDrive-Videos-4285F4?logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1bRoNhQBzWtj0y8CMGdXQvjbQCGAVddPX/view?usp=sharing)
 
