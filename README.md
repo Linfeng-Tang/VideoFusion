@@ -40,7 +40,7 @@
    
   [![Baidu Images](https://img.shields.io/badge/Baidu-Images-2319DC?logo=baidu&logoColor=white)](https://pan.baidu.com/s/1FhUirShTQ02N5Dl3pgl-PA?pwd=M2VD)
   [![Baidu Videos](https://img.shields.io/badge/Baidu-Videos-2319DC?logo=baidu&logoColor=white)](https://pan.baidu.com/s/1R6HOSMXCHSiPEywU0GK_hw?pwd=M2VD)
-  [![GoogleDrive Videos](https://img.shields.io/badge/GoogleDrive-Videos-4285F4?logo=googledrive&logoColor=white)](https://pan.baidu.com/s/1R6HOSMXCHSiPEywU0GK_hw?pwd=M2VD)
+  [![GoogleDrive Videos](https://img.shields.io/badge/GoogleDrive-Videos-4285F4?logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1bRoNhQBzWtj0y8CMGdXQvjbQCGAVddPX/view?usp=sharing)
 
 ---
 
