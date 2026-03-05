@@ -109,13 +109,14 @@ pip install -r requirements.txt
 ---
 
 ## 🚀 Quick Start (Testing)
-
+[/
 ### Prepare
 1. Download pretrained weights: **(TBD)**
 2. Put weights into:
 ```text
 ./pretrained_weights/
 ```
+/]
 
 ### Run
 ```bash id="hs2gsx"
