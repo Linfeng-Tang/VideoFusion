@@ -216,8 +216,9 @@ If you find this work useful, please cite:
 ```bibtex id="otv94e"
 @inproceedings{Tang2026VideoFusion,
   title     = {VideoFusion: A Spatio-Temporal Collaborative Network for Multi-modal Video Fusion},
-  author    = {Tang, Linfeng and Wang, Yeda and Gong, Meiqi and Li, Zizhuo and Deng, Yuxin and Yi, Xunpeng and Li, Chunyu and Zhang, Hao and Xu, Han and Ma, Jiayi},
+  author    = {Tang, Linfeng and Wang, Yeda and Gong, Meiqi and Li, Zizhuo and Deng, Yuxin and Yi, Xunpeng and Li, Chunyu and Xu, Han and Zhang, Hao and Ma, Jiayi},
   booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {19559--19569},
   year      = {2026}
 }
 ```
