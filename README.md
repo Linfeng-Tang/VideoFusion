@@ -10,6 +10,7 @@
 
 <p>
   <a href="(Paper link)"><img src="https://img.shields.io/badge/Paper-CVPR%202026-blue" alt="Paper"></a>
+  <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Tang_VideoFusion_A_Spatio-Temporal_Collaborative_Network_for_Multi-modal_Video_Fusion_CVPR_2026_paper.html"><img src="https://img.shields.io/badge/Paper-CVPR_2026-blue" alt="CVPR 2026 paper"></a>
   <a href="https://arxiv.org/abs/2503.23359"><img src="https://img.shields.io/badge/arXiv-2503.23359-b31b1b" alt="arXiv"></a>
   <a href="https://github.com/Linfeng-Tang/VideoFusion"><img src="https://img.shields.io/badge/Project-Repo-green" alt="Project"></a>
   <a href="https://github.com/Linfeng-Tang/M3SVD"><img src="https://img.shields.io/badge/Dataset-M3SVD-orange" alt="Dataset"></a>
@@ -35,7 +36,8 @@
 ---
 
 ## 🔥 News
-- **[2026]** VideoFusion has been **accepted to CVPR 2026**.
+- **[2026-06-02]** Our paper **[DSPFusion: Image Fusion via Degradation and Semantic Dual-Prior Guidance](https://doi.org/10.1109/TIP.2026.3700938)** has been officially accepted by **IEEE Transactions on Image Processing (IEEE TIP)**! [[Paper](https://doi.org/10.1109/TIP.2026.3700938)] [[arXiv](https://arxiv.org/abs/2503.23355)] [[Code](https://github.com/Linfeng-Tang/DSPFusion)]
+- **[2026-02-21]** VideoFusion has been **accepted to CVPR 2026**. [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Tang_VideoFusion_A_Spatio-Temporal_Collaborative_Network_for_Multi-modal_Video_Fusion_CVPR_2026_paper.html)] [[arXiv](https://arxiv.org/abs/2503.23359)]
 - **[2025]** We release **[M3SVD](https://github.com/Linfeng-Tang/M3SVD)**, a large-scale aligned **infrared-visible multi-modal video dataset** for fusion & restoration.
    
   [![Baidu Netdisk Images](https://img.shields.io/badge/Baidu-Images-2319DC?logo=baidu&logoColor=white)](https://pan.baidu.com/s/1g8jixAr39n06JWPwrBE6lQ?pwd=M2VD)
